@@ -1,0 +1,14 @@
+public class Vowels {
+    public static void main(String[] args) {
+        char[] vowels = {'j','a','v','a','p','r','o','g','r','a','m'};
+        int i = 0;
+
+        for (char z : vowels) {
+        if (z == 'a' || z== 'e' || z== 'i' || z == 'o' || z == 'u'){
+                i++;
+            }
+        }
+
+        System.out.println("Number of vowels: " + i);
+    }
+}
