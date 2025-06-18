@@ -1,0 +1,16 @@
+public class Primenumbers{
+    public static void main(String[] args) {
+        for (int i = 2; i <= 100; i++) {
+            boolean isPrime = true;
+            for (int a= 2; a <= i / 2; a++) {
+                if (i % a == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+            if(isPrime) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
