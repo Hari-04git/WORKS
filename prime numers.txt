@@ -1,21 +1,23 @@
-public class  prime {
+public class prime {
     public static void main(String[] args) {
-      int num =100;
+     
+    for(int num=2;num<=100;num++){
         boolean isprime =true;
-        for ( int a = 2;a <= 100; a++) {
-            System.out.println(a);
-            
-            if (num%a==0){
-                isprime= true;
-                break;
+        for (int i=2;i<num;i++){
+            if(num%i==0){
+             isprime=false;
+               break;
+              
                 
             }
         }
+
+        if(isprime){
+
+        System.out.println(num );
+                              
+        } 
+        
+    }
     }
 }
-           if (isprime) {
-           system.out.println(num + "is prime")
-        }
-        else {
-            system.out.println(num + "is not prime")
-        }
