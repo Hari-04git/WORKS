@@ -1,6 +1,6 @@
 public class grade {
     public static void main(String[] args) {
-        int mark=80;
+        int Mark=80;
         if(mark>=75){
             System.out.println("Grade=A"); 
             }
