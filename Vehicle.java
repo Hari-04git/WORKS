@@ -15,7 +15,6 @@ public class Vehicle {
         this.mfdYear = mfdYear;
         this.wheel = wheel;
      }
-
      public static void main(String[] args) {
         Vehicle vehicle = new Vehicle("Royal Enfield", 1980, "Classic 350", 2);
       
