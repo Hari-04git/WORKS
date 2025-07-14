@@ -1,4 +1,4 @@
-ackage assign;
+package assign;
 
 interface factory{
     void salary();
