@@ -1,4 +1,4 @@
-public class prime {
+public class Prime {
     public static void main(String[] args) {
      
     for(int num=2;num<=100;num++){
