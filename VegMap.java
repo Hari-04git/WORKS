@@ -17,7 +17,7 @@ public class VegMap{
              Iterator<Map.Entry<String,String>> it = veggies.entrySet().iterator();
               while(it.hasNext()){
                   Map.Entry<String,String>entry=it.next();
-                  System.out.println(entry.getKey() + " = " + entry.getValue());
+                  System.out.println(entry.getKey());
               }
         }
     }
@@ -30,4 +30,5 @@ public class VegMap{
 
 
  
+
  
